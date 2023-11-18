@@ -24,7 +24,7 @@
 
 ![Screen Shot](images/mainmenu.png)
 
-Console-based Movie List Application: A Python-based program allowing users to manage movie records. Features include adding, filtering, searching, updating, and deleting movies via a user-friendly interface. Utilizes JSON for data storage, offering functionalities to view movies, add new entries, and perform various operations on movie records efficiently.
+The Movie List Application is a Python-based tool designed for individuals and enthusiasts interested in organizing and managing their movie collections. This console-based program allows users to effortlessly add, view, filter, search, update, and delete movie records. Whether you're a movie buff or someone looking to organize your film library, this application provides an intuitive interface to streamline movie management tasks efficiently.
 
 ## Built With
 

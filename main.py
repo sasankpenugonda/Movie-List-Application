@@ -73,8 +73,6 @@ def filter_movies(movies):
     else:
         print("No movies found matching the criteria.")
 
-
-# Function for user-friendly movie search
 def search_movie(movies):
     print("\nSearch Options:")
     print("1. Search by Movie Name")
@@ -110,8 +108,6 @@ def search_movie(movies):
     else:
         print("No movie found.")
 
-
-# Function to update a movie's details
 def update_movie(movies):
     print("\nUpdate Options:")
     print("1. Update by Name")
@@ -169,7 +165,6 @@ def update_movie(movies):
     else:
         print("Invalid choice. Movie details not updated.")
 
-# Function to delete a movie
 def delete_movie(movies):
     movie_to_delete = input("Enter the name of the movie to delete: ")
     found = False
@@ -192,10 +187,9 @@ def delete_movie(movies):
         print(f"Movie '{movie_to_delete}' not found in the records. No changes made.")
 
 
-# Function to get the number of movies in a specified language
 def get_movies_in_language(movies):
     unique_languages = set(movie['language'] for movie in movies)
-    
+
     print("\nAvailable Languages:")
     for index, language in enumerate(unique_languages, start=1):
         print(f"{index}. {language}")
@@ -238,7 +232,7 @@ def main():
         elif choice == '6':
             delete_movie(movies)
         elif choice == '7':
-            count = get_movies_in_language(movies)
+            get_movies_in_language(movies)
         elif choice == '8':
             print("Exiting the Movie List Application. Goodbye!")
             break

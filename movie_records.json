@@ -1,0 +1,240 @@
+[
+    {
+        "name": "Sita Ramam",
+        "director": "Hanu Raghavapudi",
+        "release_year": "2022",
+        "language": "Telugu",
+        "rating": "8.2/10"
+    },
+    {
+        "name": "Karthikeya 2",
+        "director": "Chandoo Mondeti",
+        "release_year": "2022",
+        "language": "Telugu",
+        "rating": "7.8/10"
+    },
+    {
+        "name": "Bimbisara",
+        "director": "Vashishth",
+        "release_year": "2022",
+        "language": "Telugu",
+        "rating": "7.5/10"
+    },
+    {
+        "name": "Bangarraju",
+        "director": "Vashisth",
+        "release_year": "2022",
+        "language": "Telugu",
+        "rating": "7.3/10"
+    },
+    {
+        "name": "Seetimaarr",
+        "director": "Sampath Nandi",
+        "release_year": "2022",
+        "language": "Telugu",
+        "rating": "7.0/10"
+    },
+    {
+        "name": "Bheemla Nayak",
+        "director": "Sagar K Chandra",
+        "release_year": "2022",
+        "language": "Telugu",
+        "rating": "6.7/10"
+    },
+    {
+        "name": "Acharya",
+        "director": "Koratala Siva",
+        "release_year": "2022",
+        "language": "Telugu",
+        "rating": "6.4/10"
+    },
+    {
+        "name": "Radhe Shyam",
+        "director": "Radha Krishna Kumar",
+        "release_year": "2022",
+        "language": "Telugu",
+        "rating": "6.1/10"
+    },
+    {
+        "name": "The Warriorr",
+        "director": "Lingusamy",
+        "release_year": "2022",
+        "language": "Telugu",
+        "rating": "5.8/10"
+    },
+    {
+        "name": "Ante Sundaraniki!",
+        "director": "Vivek Athreya",
+        "release_year": "2022",
+        "language": "Telugu",
+        "rating": "5.5/10"
+    },
+    {
+        "name": "Virata Parvam",
+        "director": "Venu Udugula",
+        "release_year": "2022",
+        "language": "Telugu",
+        "rating": "5.2/10"
+    },
+    {
+        "name": "Sarileru Neekevvaru",
+        "director": "Anil Ravipudi",
+        "release_year": "2020",
+        "language": "Telugu",
+        "rating": "8.1/10"
+    },
+    {
+        "name": "Ala Vaikunthapurramuloo",
+        "director": "Trivikram Srinivas",
+        "release_year": "2020",
+        "language": "Telugu",
+        "rating": "8.0/10"
+    },
+    {
+        "name": "Bheemla Nayak",
+        "director": "Sagar K Chandra",
+        "release_year": "2022",
+        "language": "Tamil",
+        "rating": "7.5/10"
+    },
+    {
+        "name": "Vikram",
+        "director": "Lokesh Kanagaraj",
+        "release_year": "2022",
+        "language": "Tamil",
+        "rating": "9.2/10"
+    },
+    {
+        "name": "Ponniyin Selvan: Part One",
+        "director": "Mani Ratnam",
+        "release_year": "2022",
+        "language": "Tamil",
+        "rating": "8.7/10"
+    },
+    {
+        "name": "Kushi",
+        "director": "Shiva Nirvana",
+        "release_year": "2023",
+        "language": "Telugu",
+        "rating": "7.4/10"
+    },
+    {
+        "name": "Bro",
+        "director": "Samuthirakani",
+        "release_year": "2023",
+        "language": "Telugu",
+        "rating": "5.8/10"
+    },
+    {
+        "name": "Sandeepa Varudu",
+        "director": "Pradeep Varma",
+        "release_year": "2023",
+        "language": "Telugu",
+        "rating": "5.2/10"
+    },
+    {
+        "name": "Vaathi",
+        "director": "Venky Atluri",
+        "release_year": "2023",
+        "language": "Telugu",
+        "rating": "6.4/10"
+    },
+    {
+        "name": "Waltair Veerayya",
+        "director": "Bobby Kolli",
+        "release_year": "2023",
+        "language": "Telugu",
+        "rating": "6.8/10"
+    },
+    {
+        "name": "Laththi",
+        "director": "Ezhil",
+        "release_year": "2023",
+        "language": "Tamil",
+        "rating": "6.5/10"
+    },
+    {
+        "name": "Theerthanda Veeran",
+        "director": "Vinooth Poojara",
+        "release_year": "2023",
+        "language": "Tamil",
+        "rating": "6.2/10"
+    },
+    {
+        "name": "Veera Simha Reddy",
+        "director": "Gopi Chand Malineni",
+        "release_year": "2023",
+        "language": "Telugu",
+        "rating": "7.1/10"
+    },
+    {
+        "name": "Shakuntalam",
+        "director": "A.L. Vijay",
+        "release_year": "2023",
+        "language": "Telugu",
+        "rating": "5.9/10"
+    },
+    {
+        "name": "Ant-Man and the Wasp: Quantumania",
+        "director": "Peyton Reed",
+        "release_year": "2023",
+        "language": "English",
+        "rating": "7.2/10"
+    },
+    {
+        "name": "John Wick: Chapter 4",
+        "director": "Chad Stahelski",
+        "release_year": "2023",
+        "language": "English",
+        "rating": "7.5/10"
+    },
+    {
+        "name": "Guardians of the Galaxy Vol. 3",
+        "director": "James Gunn",
+        "release_year": "2023",
+        "language": "English",
+        "rating": "7.8/10"
+    },
+    {
+        "name": "The Marvels",
+        "director": "Nia DaCosta",
+        "release_year": "2023",
+        "language": "English",
+        "rating": "7.4/10"
+    },
+    {
+        "name": "Spider-Man: Across the Spider-Verse (Part One)",
+        "director": "Joaquim Dos Santos, Kemp Powers, and Justin K. Thompson",
+        "release_year": "2023",
+        "language": "English",
+        "rating": "7.9/10"
+    },
+    {
+        "name": "Aakasame nee haddura",
+        "director": "Sudha Kongara Prasad",
+        "release_year": "2020",
+        "language": "Telugu",
+        "rating": "8.7/10"
+    },
+    {
+        "name": "RRR",
+        "director": "Rajamouli",
+        "release_year": "2022",
+        "language": "Telugu",
+        "rating": "9"
+    },
+    {
+        "name": "Avengers Heist",
+        "director": "Yashwanth",
+        "release_year": "2024",
+        "language": "Telugu",
+        "rating": "NA"
+    },
+    {
+        "name": "Kannur Squad",
+        "director": "Roby Vargese Raj",
+        "release_year": "2023",
+        "language": "Malayalam",
+        "rating": "7.2"
+    }
+]

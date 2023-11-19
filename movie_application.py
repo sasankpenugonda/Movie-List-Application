@@ -197,7 +197,7 @@ def delete_movie(movies):
 
     for movie in movies:
         if movie['name'].lower() == movie_to_delete.lower():
-            cf=input(f"Are you sure. Do you want to delete Movie '{movie_to_delete}'. If yes enter 'Y' or enter 'N'")
+            cf=input(f"Are you sure to delete Movie '{movie_to_delete}'. Confirm Yes with'Y' or No with 'N': ")
             if cf.lower()=='y':
                 movies.remove(movie)
                 found = True

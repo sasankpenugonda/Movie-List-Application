@@ -20,6 +20,32 @@ def show_all_movies(movies):
     for movie in movies:
         print(f"{movie['name']}")
 
+def show_and_choose_movie(movies):
+    if not movies:
+        print("No movies found.")
+        return
+    
+    print("\nMovies List:")
+    for idx, movie in enumerate(movies, start=1):
+        print(f"{idx}. {movie['name']}")
+
+    choice = input("\nEnter the number of the movie to see details: ")
+
+    try:
+        choice = int(choice)
+        if 1 <= choice <= len(movies):
+            chosen_movie = movies[choice - 1]
+            print("\nChosen Movie Details:")
+            print(f"Title: {chosen_movie['name']}")
+            print(f"Director: {chosen_movie['director']}")
+            print(f"Release Year: {chosen_movie['release_year']}")
+            print(f"Language: {chosen_movie['language']}")
+            print(f"Rating: {chosen_movie['rating']}")
+        else:
+            print("Invalid movie number. Please select a valid option.")
+    except ValueError:
+        print("Invalid input. Please enter a number.")
+
 def add_new_movie(movies):
     name = input("Enter movie name: ")
     director = input("Enter director's name: ")
@@ -51,16 +77,16 @@ def filter_movies(movies):
 
     if choice == '1':
         search_term = input("Enter movie name to filter: ")
-        filtered_movies = [movie for movie in movies if search_term.lower() in movie['name'].lower()]
+        filtered_movies = [movie for movie in movies if search_term.lower() == movie['name'].lower()]
     elif choice == '2':
         search_term = input("Enter director's name to filter: ")
-        filtered_movies = [movie for movie in movies if search_term.lower() in movie['director'].lower()]
+        filtered_movies = [movie for movie in movies if search_term.lower() == movie['director'].lower()]
     elif choice == '3':
         search_term = input("Enter release year to filter: ")
         filtered_movies = [movie for movie in movies if search_term == movie['release_year']]
     elif choice == '4':
         search_term = input("Enter language to filter: ")
-        filtered_movies = [movie for movie in movies if search_term.lower() in movie['language'].lower()]
+        filtered_movies = [movie for movie in movies if search_term.lower() == movie['language'].lower()]
     elif choice == '5':
         search_term = input("Enter rating to filter: ")
         filtered_movies = [movie for movie in movies if search_term == movie['rating']]
@@ -210,30 +236,33 @@ def main():
         print("\n===== Movie List Application =====")
         print("\n===== Main Menu =====")
         print("1. Show all Movies")
-        print("2. Add a New Movie")
-        print("3. Filter Movies based on criteria")
-        print("4. Search for a Movie")
-        print("5. Update a Movie's Details")
-        print("6. Delete a Movie")
-        print("7. Get number of movies count in a specified language")
-        print("8. Exit")
+        print("2. Show a Movie record")
+        print("3. Add a New Movie")
+        print("4. Filter Movies based on criteria")
+        print("5. Search for a Movie")
+        print("6. Update a Movie's Details")
+        print("7. Delete a Movie")
+        print("8. Get number of movies count in a specified language")
+        print("9. Exit")
         choice = input("Enter your choice: ")
 
         if choice == '1':
             show_all_movies(movies)
         elif choice == '2':
-            add_new_movie(movies)
+            show_and_choose_movie(movies)
         elif choice == '3':
-            filter_movies(movies)
+            add_new_movie(movies)
         elif choice == '4':
-            search_movie(movies)
+            filter_movies(movies)
         elif choice == '5':
-            update_movie(movies)
+            search_movie(movies)
         elif choice == '6':
-            delete_movie(movies)
+            update_movie(movies)
         elif choice == '7':
-            get_movies_in_language(movies)
+            delete_movie(movies)
         elif choice == '8':
+            get_movies_in_language(movies)
+        elif choice == '9':
             print("Exiting the Movie List Application. Goodbye!")
             break
         else:
